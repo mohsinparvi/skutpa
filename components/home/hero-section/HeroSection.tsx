@@ -24,7 +24,11 @@ export default function HeroSection() {
         </button>
       </div>
       <div className="w-1/2 bg-pink-100 rounded-full">
-        <Image src={Person} alt="Model image" className="relative bottom-8 left-14" />
+        <Image
+          src={Person}
+          alt="Model image"
+          className="relative bottom-8 left-14 w-full h-[150%] "
+        />
       </div>
     </div>
   );
