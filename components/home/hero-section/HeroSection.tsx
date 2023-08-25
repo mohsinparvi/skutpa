@@ -27,7 +27,7 @@ export default function HeroSection() {
         <Image
           src={Person}
           alt="Model image"
-          className="relative bottom-8 left-14 w-full h-[150%] "
+          className="relative bottom-8 left-14 w-full h-[150%]"
         />
       </div>
     </div>
