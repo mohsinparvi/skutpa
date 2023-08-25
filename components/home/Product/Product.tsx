@@ -12,7 +12,7 @@ export default function Product() {
         <h1 className="font-extrabold text-4xl">Our Products Events</h1>
       </div>
       <div className="grid grid-cols-3 my-14">
-        <div className="hover:scale-110 space-y-1 transition-all delay-100">
+        <div className="hover:scale-110 space-y-1 ease-out duration-700 z-10">
           <Image
             src={product1}
             alt="Product image"
@@ -21,7 +21,7 @@ export default function Product() {
           <h2 className="font-bold text-xl">Brushed Raglan Sweatshirt</h2>
           <p className="text-base">$195</p>
         </div>
-        <div className="hover:scale-110 space-y-1 transition-all delay-100">
+        <div className="hover:scale-110 space-y-1 ease-out duration-700 z-20">
           <Image
             src={product2}
             alt="Product image"
@@ -30,7 +30,7 @@ export default function Product() {
           <h2 className="font-bold text-xl">Cameryn Sash Tie Dress</h2>
           <p className="text-base">$195</p>
         </div>
-        <div className="hover:scale-110 space-y-1 transition-all delay-100">
+        <div className="hover:scale-110 space-y-1 ease-out duration-700 z-30">
           <Image
             src={product3}
             alt="Product image"
