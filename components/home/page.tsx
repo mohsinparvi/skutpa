@@ -28,6 +28,7 @@ export default function HomePage() {
         <Newsletter />
       </div>
       <div>
+     
         <Footer />
       </div>
     </>
