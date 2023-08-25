@@ -6,8 +6,8 @@ import Image from "next/image";
 
 export default function Product() {
   return (
-    <div className="my-14">
-      <div className="text-center">
+    <div className="my-40">
+      <div className="text-center space-y-4">
         <p className="font-bold text-blue-800 uppercase">product</p>
         <h1 className="font-extrabold text-4xl">Our Products Events</h1>
       </div>
