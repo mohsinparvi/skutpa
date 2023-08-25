@@ -6,7 +6,7 @@ export default function Feature() {
   return (
     <div className="my-40">
       <div className="flex justify-end">
-        <h2 className="font-extrabold text-4xl text-right w-1/4">
+        <h2 className="font-bold text-5xl w-1/3">
           Unique and Authentic Vintage Designer Jewellery
         </h2>
       </div>
