@@ -23,11 +23,11 @@ export default function HeroSection() {
           <p>Shopping Cart</p>
         </button>
       </div>
-      <div className="w-1/2 bg-pink-100 rounded-full">
+      <div className="w-1/2 bg-pink-100 rounded-full ">
         <Image
           src={Person}
           alt="Model image"
-          className="relative bottom-8 left-14 w-full h-[150%]"
+          className="bottom-8 left-18 w-full h-full  "
         />
       </div>
     </div>
