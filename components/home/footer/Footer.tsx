@@ -11,12 +11,12 @@ export default function Footer() {
   return (
     <>
       <div className="grid grid-cols-4  justify-evenly gap-8 my-8">
-        <div className="space-y-4 w-full ">
+        <div className="space-y-3 w-full ">
           <div className="flex  gap-4 ">
             <Image src={skutpa} alt="logo" className="w-1/4 -mt-4" />
             <h2 className="font-bold text-2xl text-gray-800">Skutpa</h2>
           </div>
-          <p className="py-3 text-base font-medium">
+          <p className=" text-base font-medium">
             Small, artisan label that offers a thoughtfully curated collection
             of high quality everyday essentials made.
           </p>
