@@ -10,7 +10,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="flex justify-between items-center lg:hidden xs:flex">
+      <div className="flex justify-between items-center md:hidden xs:flex">
         <Image src={skutpa} alt="skutpa logo" className="w-1/12" />
         <NavbarMobile />
       </div>

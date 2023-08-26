@@ -11,14 +11,14 @@ export default function Promotion() {
         <p className="font-bold text-blue-800 uppercase">promotion</p>
         <h1 className="font-extrabold text-4xl">Our Promotions Events</h1>
       </div>
-      <div className="grid  grid-cols-3 gap-x-4 my-8">
+      <div className="grid  lg:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-4 my-8">
         <div className="space-y-4">
-          <div className="flex items-center  bg-gray-300 px-8 w-full">
+          <div className="flex md:flex-row xs:flex-col  items-center  bg-gray-300  px-8 w-full">
             <div className="">
               <h2 className="font-bold text-2xl">GET UP TO 60%</h2>
               <p className="font-medium text-base">For the summer season</p>
             </div>
-            <Image src={promo1} alt="promo image" />
+            <Image src={promo1} alt="promo image" className="" />
           </div>
           <div className="bg-black flex flex-col justify-center items-center text-white  py-8 space-y-4">
             <h2 className="text-4xl font-extrabold">GET 30% Off</h2>
@@ -28,7 +28,8 @@ export default function Promotion() {
             </p>
           </div>
         </div>
-        <div className="bg-pink-100 flex flex-col justify-center ">
+        {/* <div className="lg:hidden xs:block xs:w-0"></div> */}
+        <div className="bg-pink-100 flex flex-col justify-center  ">
           <div className="space-y-2 p-4">
             <h3>Flex Sweatshirt</h3>
             <div className="flex gap-8 ">
@@ -36,9 +37,9 @@ export default function Promotion() {
               <p className="font-bold ">$75.00</p>
             </div>
           </div>
-          <Image src={promo3} alt="promo image" className="mx-auto mt-3" />
+          <Image src={promo3} alt="promo image" className="mx-auto  mt-3" />
         </div>
-        <div className="bg-gray-300 space-y-2">
+        <div className="bg-gray-300 space-y-2 ">
           <div className="space-y-2 p-4">
             <h3>Flex Sweatshirt</h3>
             <div className="flex gap-8 ">

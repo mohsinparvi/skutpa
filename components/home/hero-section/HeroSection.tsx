@@ -6,9 +6,9 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <div className="flex items-center my-8 gap-20 lg:flex-row xs:flex-col">
-      <div className="w-2/5 space-y-4">
-        <p className="bg-blue-300 text-blue-500 rounded-md p-4  font-semibold w-1/4">
+    <div className="flex items-center my-8 gap-20 md:flex-row xs:flex-col">
+      <div className="lg:w-2/5 xs:w-full space-y-4">
+        <p className="bg-blue-300 text-blue-500 rounded-md p-4  font-semibold ms:w-1/4 xs:w-2/5 text-center">
           Sale 70%
         </p>
         <h1 className="font-bold text-6xl ">
@@ -23,7 +23,7 @@ export default function HeroSection() {
           <p>Shopping Cart</p>
         </button>
       </div>
-      <div className="w-1/2 bg-pink-100 rounded-full ">
+      <div className="w-1/2 bg-pink-100 rounded-full md:block xs:hidden ">
         <Image
           src={Person}
           alt="Model image"

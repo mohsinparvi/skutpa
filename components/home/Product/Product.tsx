@@ -11,30 +11,30 @@ export default function Product() {
         <p className="font-bold text-blue-800 uppercase">product</p>
         <h1 className="font-extrabold text-4xl">Our Products Events</h1>
       </div>
-      <div className="grid grid-cols-3 my-14">
-        <div className="hover:scale-110 space-y-1 ease-out duration-700 z-10">
+      <div className="grid md:grid-cols-3 xs:grid-cols-1 my-14">
+        <div className="hover:scale-110 space-y-1 ease-out duration-700   z-10">
           <Image
             src={product1}
             alt="Product image"
-            className="h-full w-full object-cover"
+            className="h-full w-full  object-cover"
           />
           <h2 className="font-bold text-xl">Brushed Raglan Sweatshirt</h2>
           <p className="text-base">$195</p>
         </div>
-        <div className="hover:scale-110 space-y-1 ease-out duration-700 z-20">
+        <div className="hover:scale-110 space-y-1 ease-out duration-700 md:block xs:hidden z-20">
           <Image
             src={product2}
             alt="Product image"
-            className="h-full w-full object-cover"
+            className="h-full w-full  object-cover"
           />
           <h2 className="font-bold text-xl">Cameryn Sash Tie Dress</h2>
           <p className="text-base">$195</p>
         </div>
-        <div className="hover:scale-110 space-y-1 ease-out duration-700 z-30">
+        <div className="hover:scale-110 space-y-1 ease-out duration-700 md:block xs:hidden z-30">
           <Image
             src={product3}
             alt="Product image"
-            className="h-full w-full object-cover"
+            className="h-full w-full  object-cover"
           />
           <h2 className="font-bold text-xl">Flex Sweatshirt</h2>
           <p className="text-base">$195</p>
