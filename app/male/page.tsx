@@ -1,7 +1,6 @@
-import React from 'react'
+import MaleProducts from "@/modules/maleproducts/maleproducts";
+import React from "react";
 
 export default function page() {
-  return (
-    <div>page</div>
-  )
+  return <MaleProducts />;
 }
