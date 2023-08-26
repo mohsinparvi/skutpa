@@ -10,7 +10,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <>
-      <div className="grid grid-cols-4  justify-evenly gap-8 my-8">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 xs:grid-cols-1   justify-evenly gap-8 my-8">
         <div className="space-y-3 w-full ">
           <div className="flex  gap-4 ">
             <Image src={skutpa} alt="logo" className="w-1/4 -mt-4" />
@@ -68,7 +68,7 @@ export default function Footer() {
         </div>
       </div>
       <hr />
-      <div className="flex justify-between my-4 items-center ">
+      <div className="flex lg:flex-row xs:flex-col space-y-3 justify-between my-4 items-center ">
         <p>Copyright © 2023 Skupta</p>
         <p>
           Design by.
