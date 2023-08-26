@@ -17,9 +17,9 @@ export default function Navbar() {
       </div>
 
       <div className="flex justify-between items-center xs:hidden md:flex ">
-        <Link href={"/"}>
-          <Image src={skutpa} alt="skutpa logo" className="w-1/12" />
-        </Link>
+        {/* <Link href={"/"}> */}
+        <Image src={skutpa} alt="skutpa logo" className="w-1/12" />
+        {/* </Link> */}
         <NavBar />
       </div>
     </>
