@@ -12,7 +12,7 @@ export default function Feature() {
       </div>
       <div className="grid lg:grid-cols-2 xs:grid-cols-1 gap-14 my-4">
         <div className="grid grid-cols-2 justify-between items-center relative gap-4 lg:my-0 xs:my-10 ">
-          <p className="font-bold lg:text-9xl xs:text-8xl  absolute opacity-20 z-10">
+          <p className="font-bold lg:text-9xl sm:text-8xl sm:block xs:hidden absolute opacity-20 z-10">
             Different from other
           </p>
           <div className="space-y-4 ">
