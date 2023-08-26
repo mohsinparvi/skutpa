@@ -9,16 +9,16 @@ export default function NavBar() {
   return (
     <>
       {/* <ul className="flex gap-4"> */}
-      <Link href={"/"} className="font-medium text-base">
+      <Link href={"/female"} className="font-medium text-base">
         Female
       </Link>
-      <Link href={"/"} className="font-medium text-base">
+      <Link href={"/male"} className="font-medium text-base">
         Male
       </Link>
-      <Link href={"/"} className="font-medium text-base">
+      <Link href={"/kids"} className="font-medium text-base">
         Kids
       </Link>
-      <Link href={"/"} className="font-medium text-base">
+      <Link href={"/allproducts"} className="font-medium text-base">
         All Products
       </Link>
       {/* </ul> */}
