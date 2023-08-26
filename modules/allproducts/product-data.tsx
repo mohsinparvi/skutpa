@@ -95,7 +95,7 @@ export const productData = [
   },
   {
     productId: Math.random().toString(10),
-    title: "Brushed Bomber",
+    title: "Brushed Bomber ",
     image: (
       <Image src={P10} alt="Product image" className="w-full object-cover" />
     ),
@@ -104,7 +104,7 @@ export const productData = [
   },
   {
     productId: Math.random().toString(10),
-    title: "Raglan Sweatshirt",
+    title: "Raglan Sweatshirt ",
     image: (
       <Image src={P11} alt="Product image" className="w-full object-cover" />
     ),
