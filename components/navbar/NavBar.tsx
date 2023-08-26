@@ -1,16 +1,14 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import skutpa from "@/assets/home/skutpa-logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import search from "@/assets/icons/search.svg";
 import ShopingCart from "@/assets/icons/shoping-cart.png";
-
 export default function NavBar() {
   return (
-    <div className="flex justify-between items-center ">
-      <Image src={skutpa} alt="skutpa logo" className="w-1/12" />
+    <>
       {/* <ul className="flex gap-4"> */}
-
       <Link href={"/"} className="font-medium text-base">
         Female
       </Link>
@@ -37,6 +35,6 @@ export default function NavBar() {
         <Image src={ShopingCart} alt="Shoping Cart" />
       </div>
       {/* </div> */}
-    </div>
+    </>
   );
 }

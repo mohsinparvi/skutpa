@@ -4,14 +4,15 @@ import Feature from "@/components/home/aboutproduct/Feature";
 import HeroSection from "@/components/home/hero-section/HeroSection";
 import Promotion from "@/components/home/promotion/promotion";
 import NavBar from "@/components/navbar/NavBar";
-import Newsletter from "./newsletter/Newsletter";
-import Footer from "./footer/Footer";
+import Newsletter from "../../components/home/newsletter/Newsletter";
+import Footer from "../../components/home/footer/Footer";
+import Navbar from "../navbar/Navbar";
 export default function HomePage() {
   return (
     <>
-      <div>
-        <NavBar />
-      </div>
+      {/* <div> */}
+      {/* <Navbar /> */}
+      {/* </div> */}
       <div>
         <HeroSection />
       </div>
@@ -27,9 +28,9 @@ export default function HomePage() {
       <div>
         <Newsletter />
       </div>
-      <div>
+      {/* <div>
         <Footer />
-      </div>
+      </div> */}
     </>
   );
 }
