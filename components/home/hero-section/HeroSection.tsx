@@ -11,7 +11,7 @@ export default function HeroSection() {
         <p className="bg-blue-300 text-blue-500 rounded-md p-4  font-semibold ms:w-1/4 xs:w-2/5 text-center">
           Sale 70%
         </p>
-        <h1 className="font-bold text-6xl ">
+        <h1 className="font-bold sm:text-6xl xs:text-4xl ">
           An Industrial Take on Streetwear
         </h1>
         <p>
