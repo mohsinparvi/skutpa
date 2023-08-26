@@ -10,7 +10,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <>
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 xs:grid-cols-1   justify-evenly gap-8 my-8">
+      <div className="grid lg:grid-cols-4 sm:grid-cols-2 xs:grid-cols-1    md:justify-evenly xs:justify-center gap-8 my-8">
         <div className="space-y-3 w-full ">
           <div className="flex  gap-4 ">
             <Image src={skutpa} alt="logo" className="w-1/4 -mt-4" />
