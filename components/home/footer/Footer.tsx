@@ -73,16 +73,16 @@ export default function Footer() {
         <p>
           Design by.
           <Link
-            href={"https://www.linkedin.com/in/aboutmohsin/"}
+            href={"https://www.linkedin.com/in/mohsinparvi/"}
             className="font-bold "
           >
-            Mohsin Hassan
+            mohsin
           </Link>
         </p>
         <p>
           Code by.
-          <Link href={"https://github.com/aboutmohsin"} className="font-bold ">
-            aboutmohsin on github
+          <Link href={"https://github.com/mohsinparvi"} className="font-bold ">
+            mohsin
           </Link>
         </p>
       </div>
